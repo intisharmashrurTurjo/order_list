@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body-all{
+    background-color:
+
+}
+.col1 .btn-white{
+    width: 115px;
+    padding: 1px;
+    font-size: 14px;
+}
+.col1 .btn-danger{
+    width: 125px;
+    padding: 1px;
+    margin-left: -5px;
+    font-size: 14px;
+}
+.col-md-4 .bg-white{
+    background-color: rgba(233, 253, 255, 0.616) !important;
+    border: 1px solid black;
+}
+.col-auto{
+    width: 125px !important;
+    margin: 15px;
+    padding: 4px;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.602);
+
+}
+.col-sm-7 .bg-white{
+    background-color: rgb(221, 251, 255) !important;
+    border: 1px solid black;
+    padding: 10px;
+}
+.col-sm-7 h4{
+    margin-right: 10px;
+
+}
+.bg-coco{
+    background-color: rgb(221, 251, 255);
+    height: 75vh;
+}
+.note{
+    background-color: white;
+    padding: 15px;
+    font-size: 11px;
+    border: 1px solid rgb(160, 160, 160);
+}
+.note h6{
+    font-weight: 790;
+}
+.note p{
+    font-size: 9px;
+    font-weight: 600;
+}
+.btn-success{
+    background-color: #07AF01 !important;
+}
+.btn-danger{
+    background-color: #FB2726 !important;
+}
+.bg-white2 {
+    width: 180px;
+    margin: 1px;
+    padding: 11px;
+    height: 120px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 2px;
+}
+.bg-white2 input{
+    width: 140px;
+    height: 25px;
+    display: inline-block;
+}
+.bg-secondary2{
+    background-color: rgb(200, 200, 200);
+}
+/*//extra small start//*/
+@media (min-width:320px) and (max-width:575.98px){
+    .col-sm-7.container{
+        height: 150vh !important;
+    }
+}
+.btn-primary{
+    background-color: #4400AD !important;
+    height: 30px;
+    padding: 3px;
+    font-size: 13px;
+}
+
+/*//extra small end//*/
+/* small start*/
+@media (min-width:576px) and (max-width:767.98px){}
+
+/* small end*/
+/*//medium start//*/
+@media (min-width:768px) and (max-width:991.98px){}
+
+/*/medium end/*/
+/*/lg start/*/
+@media (min-width:992px) and (max-width:1199.98px){
+    .col-md-6 bg-secondary2{
+        
+    }
+    .bg-white2 {
+        width: 150px;
+    }
+}
+
+/*//lg end//*/
+/*//extra large start//*/
+@media (min-width:1200px) and (max-width:1399px){
+
+}
+/*//extra large end//*/
+@media (min-width:1400px) and (max-width:1600px) {
+    .col4{
+        top: 90%;
+    }
+}
